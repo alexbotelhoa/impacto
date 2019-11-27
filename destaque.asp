@@ -1,0 +1,1 @@
+      <td width="279" height="178" align="center" valign="top"><a href="#"><img id="foto" border="1" src="images/curso_seguranca_capa.jpg" vspace="2"></a></td>

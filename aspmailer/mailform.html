@@ -1,0 +1,50 @@
+<font face="Arial,Helvetica">
+<h1>Aspmailer Sample Form</h1>
+
+Look at source for firmer understanding of usage. Feel free to modify this form as you need it.
+
+<form action="/aspmailer.asp" method="POST">
+
+<!--fields used to direct asp script actions-->
+
+<!--TGrequire: fields that must have input [OPTIONAL]-->
+<input type="hidden" name="TGrequire" value="color,mammal,reptile">
+
+<!--TGorder: order in which inputs should appear in email [OPTIONAL]-->
+<input type="hidden" name="TGorder" value="email,color,mammal,reptile">
+
+<!--TGsubject: Subject line of email [OPTIONAL]-->
+<input type="hidden" name="TGsubject" value="Test Form has been submitted">
+
+<!--TGredirect: URL browser can be redirected to on successful submission [OPTIONAL]-->
+<input type="hidden" name="TGredirect" value="">
+
+<p>
+Enter your favorite color:
+<input type="text" name="color" size="60">
+<p>
+Enter your favorite mammal:
+<input type="text" name="mammal" size="60">
+<p>
+Enter your favorite reptile:
+<input type="text" name="reptile" size="60">
+<p>
+Enter your email address:
+<input type="text" name="email" size="60">
+<p>
+<input type="submit" value="Send Form">
+
+</form>
+
+<a href="http://www.cgiware.com/aspmailer.html">Online Documentation</a>
+
+<!--begin cgiware link-->
+<p align=center>
+<font face="Arial,Helvetica" size=1>
+Asp scripting is freeware by 
+<a href="http://www.cgiware.com/" target="_top">CGIware</a> &nbsp;
+<a href="http://www.cgiware.com/" target="_top"><img src="http://www.cgiware.com/powered.gif"  align="absmiddle" border="0"></a>
+</font>
+</p>
+<!--end cgiware link-->
+
